@@ -8,8 +8,7 @@ This is a simple Go program that watches a folder and calculates its Merkle root
 - Proof mode: Verifies whether a value is part of the Merkle tree
 - Visualize mode: Prints the full Merkle tree structure in the terminal
 
-
-## How to Run
+## How to Run
 
 ```bash
 git clone 
@@ -19,7 +18,8 @@ cd tracing-folder-changes-with-merkle-tree
 go build -o ./build/tfcwmt
 ```
 
-### Watch Mode 
+### Watch Mode
+
 Watches a folder for any file changes:
 ```bash
 
@@ -33,8 +33,8 @@ Watching folder: watched
 Merkle Root initialized: <some_hash>
 Merkle Root changed: <new_hash>
 ```
+### Proof Mode
 
-### Proof Mode
 Verifies if a given value (file content) is part of the Merkle tree:
 
 Note: Ensure the value matches the file content exactly (including newlines).
