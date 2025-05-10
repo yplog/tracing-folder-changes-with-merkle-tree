@@ -68,6 +68,4 @@ Merkle Tree Visualization:
 └── [Leaf: <value>]  <hash>
 ```
 
-Read the full blog post here:
-
-👉 [Tracking Folder Changes with Merkle Trees in Go](https://duckduckgo.com)
+Read the full blog post [here](https://yalinpala.dev/blog/tracking-folder-changes-with-merkle-trees-in-go).
